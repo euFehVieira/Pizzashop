@@ -1,0 +1,69 @@
+.reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 650ms ease, transform 650ms ease;
+    transition-delay: var(--reveal-delay, 0ms);
+}
+
+.reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.cardapio [class^="itens-cardapio"] > div {
+    border-radius: 4px;
+    transition: transform 250ms ease, box-shadow 250ms ease;
+}
+
+.cardapio [class^="itens-cardapio"] > div:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 24px rgb(30 28 42 / 14%);
+}
+
+.conteudo-principal .home-button,
+.conteudo-principal .home-button2,
+.conteudo-principal .home-button3 {
+    transition: background-color 300ms ease, transform 200ms ease, box-shadow 200ms ease;
+}
+
+.conteudo-principal .home-button:hover,
+.conteudo-principal .home-button2:hover,
+.conteudo-principal .home-button3:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgb(30 28 42 / 20%);
+}
+
+.header-conteudo .list-menu li a {
+    display: inline-block;
+    transition: color 200ms ease, transform 200ms ease;
+}
+
+.header-conteudo .list-menu li a:hover {
+    transform: translateY(-2px);
+}
+
+.secao-geral {
+    transition: transform 250ms ease, box-shadow 250ms ease;
+}
+
+.secao-geral:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgb(30 28 42 / 18%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        transition-delay: 0ms !important;
+    }
+
+    .reveal {
+        opacity: 1;
+        transform: none;
+    }
+}

@@ -1,0 +1,44 @@
+.sobrenos{
+    background-color: var(--red);
+    width: 100%;
+    padding-bottom: 3rem;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobrenos img{
+    width: 500px;
+    height: 500px;
+    margin-top: 5rem;
+    margin-bottom: -2rem;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.contentsobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    margin-left: 5rem;
+}
+
+.contentsobre h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--white);
+}
+
+.contentsobre p{
+    text-align: justify;
+    font-size: 1.1rem;
+    width: 600px;
+    color: var(--white);
+}

@@ -1,0 +1,104 @@
+.home{
+    padding: 110px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+    padding-bottom: 10.3rem;
+}
+
+.conteudo-principal{
+    padding-left: 5rem;
+}
+
+.conteudo-principal .text-h4{
+    font-size: 2.7rem;
+    color: var(--red);
+    padding-top: 10rem;
+}
+
+.conteudo-principal .text-h1{
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+    color: var(--dark);
+}
+
+.paragrafo{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    color: var(--dark);
+}
+
+.conteudo-principal .home-button{
+    text-align: center;
+    background-color: var(--red);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px 5px 20px 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.conteudo-principal .home-button:hover{
+    background-color: var(--dark);
+    transition: all .3s ease-in-out;
+}
+
+.conteudo-principal .home-button2{
+    text-align: center;
+    background-color: var(--red);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px 10px;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.conteudo-principal .home-button2:hover{
+    background-color: var(--dark);
+    transition: all .3s ease-in-out;
+}
+
+.conteudo-principal .home-button3{
+    text-align: center;
+    background-color: var(--red);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px 10px;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.conteudo-principal .home-button3:hover{
+    background-color: var(--dark);
+    transition: all .3s ease-in-out;
+}
+
+
+.home-img img{
+    width: 90%;
+    margin-left: 3rem;
+    z-index: 1;
+}
+
+/*animação da imagem*/
+
+.home-img img{
+    animation: flutuacao 5s ease-in-out infinite;
+}
+
+@keyframes flutuacao{
+    0%, 100%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-12px);
+    }
+}
+

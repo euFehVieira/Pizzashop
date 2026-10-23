@@ -1,0 +1,273 @@
+.cardapio{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardapio h2{
+    font-size: 2.5rem;
+    margin-top: 8.5rem;
+    margin-bottom: 4rem;
+}
+
+/*tradicionais*/
+
+
+.cardapio .tradicional{
+    font-size: 1.8rem;
+    color: var(--red); 
+}
+
+.itens-cardapio h3{
+    font-size: 1.2rem;
+    color:var(--red);
+    padding-left: 5px;
+}
+
+
+.itens-cardapio h4{
+    font-size: 0.7rem;
+    color: black;
+    padding-left: 3px;
+}
+
+.itens-cardapio .preco{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: black;
+    margin-bottom: 2rem;
+    padding-left: 5px;
+}
+
+.itens-cardapio{
+    width: 95%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
+    gap: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.itens-cardapio img{
+    border-radius: 3px;
+    width: 90%;
+}
+
+.itens-cardapio .info{
+    width: 90%;
+    border-radius: 3px;
+}
+
+/*classicas*/
+
+.cardapio .classicas{
+    font-size: 1.8rem;
+    color: var(--red); 
+}
+
+.itens-cardapio2 h3{
+    font-size: 1.2rem;
+    color:var(--red);
+    padding-left: 5px;
+}
+
+.itens-cardapio2 h4{
+    font-size: 0.7rem;
+    color: black;
+    padding-left: 3px;
+}
+
+.itens-cardapio2 .preco{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: black;
+    margin-bottom: 2rem;
+    padding-left: 5px;
+}
+
+.itens-cardapio2{
+    width: 95%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
+    gap: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.itens-cardapio2 img{
+    border-radius: 3px;
+    width: 90%;
+}
+
+.itens-cardapio2 .info{
+    width: 90%;
+    border-radius: 3px;
+}
+
+
+/*especiais*/
+
+.cardapio .especiais{
+    font-size: 1.8rem;
+    color: var(--red); 
+}
+
+.itens-cardapio3 h3{
+    font-size: 1.2rem;
+    color:var(--red);
+    padding-left: 5px;
+}
+
+.itens-cardapio3 h4{
+    font-size: 0.7rem;
+    color: black;
+    padding-left: 3px;
+}
+
+.itens-cardapio3 .preco{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: black;
+    margin-bottom: 2rem;
+    padding-left: 5px;
+}
+
+.itens-cardapio3{
+    width: 95%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
+    gap: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.itens-cardapio3 img{
+    border-radius: 3px;
+    width: 90%;
+}
+
+.itens-cardapio3 .info{
+    width: 90%;
+    border-radius: 3px;
+}
+
+/*sobremesas*/
+
+.cardapio .sobremesas{
+    font-size: 1.8rem;
+    color: var(--dark); 
+    margin-top: 2rem;
+}
+
+.itens-cardapio4 h3{
+    font-size: 1.2rem;
+    color: var(--red);
+}
+
+.itens-cardapio4 h4{
+    font-size: 0.7rem;
+    padding-bottom: 14px;
+}
+
+.itens-cardapio4 .preco{
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 2rem;
+    padding-left: 5px;
+}
+
+.itens-cardapio4{
+    width: 95%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
+    gap: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.itens-cardapio4 img{
+    border-radius: 3px;
+    width: 90%;
+}
+
+.itens-cardapio4 .info{
+    width: 90%;
+    border-radius: 3px;
+}
+
+/*Bebidas*/
+
+.cardapio .bebidas{
+    font-size: 1.8rem;
+    color: var(--dark); 
+    margin-top: 2rem;
+}
+
+.itens-cardapio5 h3{
+    font-size: 1.2rem;
+    color: var(--red);
+}
+
+.itens-cardapio5 h4{
+    font-size: 0.7rem;
+    padding-bottom: 14px;
+}
+
+.itens-cardapio5 .preco{
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 2rem;
+    padding-left: 5px;
+}
+
+.itens-cardapio5{
+    width: 95%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
+    gap: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.itens-cardapio5 img{
+    border-radius: 3px;
+    border: 2px solid var(--dark);
+    width: 90%;
+}
+
+.itens-cardapio5 .info{
+    width: 90%;
+    border-radius: 3px;
+}
+
+.itens-cardapio5 .coca-cola img{
+    width: 90%;
+    height: 236px;
+}
+
+.itens-cardapio5 .fanta-guarana img{
+    width: 90%;
+    height: 236px;
+}
+
+.itens-cardapio5 .sprite img{
+    width: 90%;
+    height: 236px;
+}
